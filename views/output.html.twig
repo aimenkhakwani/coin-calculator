@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title>Coin Change</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Your Change</h1>
+            <form action="/" method="get">
+                <button class="btn btn-info" type="submit" name="button">Back</button>
+            </form>
+                <h3>Quarters: {{ results["quarterOutput"] }}</h3>
+                <h3>Dimes: {{ results["dimeOutput"] }}</h3>
+                <h3>Nickels: {{ results["nickelOutput"] }}</h3>
+                <h3>Pennies: {{ results["pennyOutput"] }}</h3>
+        </div>
+    </body>
+</html>
